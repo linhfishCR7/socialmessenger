@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content: https:;">
+    <title>Social Messenger</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <div class="app">
+        <header class="header">
+            <div class="header-content">
+                <div class="app-icon">💬</div>
+                <div class="app-info">
+                    <h1 class="app-title">Social Messenger</h1>
+                    <p class="app-subtitle">Secure messaging app with group chats, media sharing, and end-to-end encryption</p>
+                </div>
+            </div>
+        </header>
+        
+        <main class="main-content">
+            <div class="welcome-section">
+                <div class="welcome-icon">💬</div>
+                <h2>Welcome to Social Messenger</h2>
+                <p class="welcome-description">Secure messaging app with group chats, media sharing, and end-to-end encryption</p>
+                
+                <div class="features-list">
+                    <div class="feature-item">
+                            <span class="feature-icon">✨</span>
+                            <span class="feature-text">Secure messaging</span>
+                        </div><div class="feature-item">
+                            <span class="feature-icon">✨</span>
+                            <span class="feature-text">Group chats</span>
+                        </div><div class="feature-item">
+                            <span class="feature-icon">✨</span>
+                            <span class="feature-text">Media sharing</span>
+                        </div><div class="feature-item">
+                            <span class="feature-icon">✨</span>
+                            <span class="feature-text">End-to-end encryption</span>
+                        </div>
+                </div>
+                
+                <button class="get-started-btn" id="getStartedBtn">Get Started</button>
+            </div>
+
+            <!-- Introduction Page -->
+            <div class="introduction-page" id="introductionPage" style="display: none;">
+                <div class="content-section">
+                    <button class="back-btn" id="backToWelcomeBtn">
+                        <i class="fas fa-arrow-left"></i> Back
+                    </button>
+
+                    <h3>About Social Messenger</h3>
+
+                    <div class="intro-section">
+                        <h4>📱 What is this app?</h4>
+                        <p>Social Messenger is a social application designed to help you secure messaging app with group chats, media sharing, and end-to-end encryption.</p>
+                    </div>
+
+                    <div class="intro-section">
+                        <h4>🎯 Key Benefits</h4>
+                        <ul class="benefits-list">
+                            <li>Secure messaging</li>
+                            <li>Group chats</li>
+                            <li>Media sharing</li>
+                        </ul>
+                    </div>
+
+                    <div class="intro-section">
+                        <h4>🚀 Getting Started</h4>
+                        <p>This app is built with Apache Cordova and includes 4 powerful plugins to enhance your experience. Click "Continue" to explore all features.</p>
+                    </div>
+
+                    <button class="get-started-btn" id="continueToFeaturesBtn">Continue to Features</button>
+                </div>
+            </div>
+
+            <div class="app-content" id="appContent" style="display: none;">
+                <div class="content-section">
+                    <button class="back-btn" id="backToIntroBtn">
+                        <i class="fas fa-arrow-left"></i> Back
+                    </button>
+
+                    <h3>Social Messenger is Ready!</h3>
+                    <p>This is your main app page. Explore the features below:</p>
+
+                    <div class="features-grid">
+                        <div class="feature-card">
+                                <div class="feature-number">1</div>
+                                <h4>Secure messaging</h4>
+                                <p>Tap to explore this feature</p>
+                            </div><div class="feature-card">
+                                <div class="feature-number">2</div>
+                                <h4>Group chats</h4>
+                                <p>Tap to explore this feature</p>
+                            </div><div class="feature-card">
+                                <div class="feature-number">3</div>
+                                <h4>Media sharing</h4>
+                                <p>Tap to explore this feature</p>
+                            </div><div class="feature-card">
+                                <div class="feature-number">4</div>
+                                <h4>End-to-end encryption</h4>
+                                <p>Tap to explore this feature</p>
+                            </div>
+                    </div>
+
+                    <div class="action-buttons">
+                        <button class="btn btn-primary" id="primaryAction">
+                            <i class="fas fa-rocket"></i> Primary Action
+                        </button>
+                        <button class="btn btn-secondary" id="secondaryAction">
+                            <i class="fas fa-cog"></i> Settings
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </main>
+        
+        <footer class="footer">
+            <p>&copy; 2024 Social Messenger. Built with Apache Cordova.</p>
+        </footer>
+    </div>
+    
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+</body>
+</html>
