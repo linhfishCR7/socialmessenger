@@ -1,0 +1,35 @@
+{
+  "name": "socialmessenger",
+  "displayName": "Social Messenger",
+  "version": "1.0.0",
+  "description": "Secure messaging app with group chats, media sharing, and end-to-end encryption",
+  "main": "index.js",
+  "scripts": {
+    "build": "cordova build",
+    "build:android": "cordova build android",
+    "build:android:release": "cordova build android --release",
+    "run:android": "cordova run android",
+    "clean": "cordova clean",
+    "prepare": "cordova prepare",
+    "serve": "cordova serve"
+  },
+  "keywords": [
+    "cordova",
+    "phonegap",
+    "mobile",
+    "app",
+    "social",
+    "socialmessenger"
+  ],
+  "author": "LinhFish Development Team <dev@linhfish.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "cordova": "^14.0.0"
+  },
+  "cordova": {
+    "platforms": [
+      "android"
+    ],
+    "plugins": {}
+  }
+}
